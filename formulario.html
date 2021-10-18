@@ -40,10 +40,10 @@
 
 <main>
 <h1>Danos tu opinión</h1>
-	<section accesskey="5">
-		<h2>¿Conocias previamente a Tim Berners-Lee?</h2>
+	<section  tabindex="5">
+		
 		<form name="conocias">
-				
+			<h2>¿Conocias previamente a Tim Berners-Lee?</h2>
 		  	<input type="radio" id="noCT" name="fcon" value="No">
 		  	<label for="noCT">No</label>
 			<input type="radio" id="unpocoT" name="fcon" value="unpoco">
@@ -53,11 +53,10 @@
 			<input type="radio" id="muchoT" name="fcon" value="mucho">
 		  	<label for="muchoT">Mucho</label>
 		</form>
-	</section>
 
-	<section accesskey="6">
-		<h2>¿Conocias previamente la World Wide Web?</h2>
+		
 		<form name="conociasW">
+			<h2>¿Conocias previamente la World Wide Web?</h2>
 		  	<input type="radio" id="noCW" name="fcon" value="No">
 		  	<label for="noCW">No</label>
 			<input type="radio" id="unpocoW" name="fcon" value="unpoco">
@@ -67,38 +66,34 @@
 			<input type="radio" id="muchoW" name="fcon" value="mucho">
 		  	<label for="muchoW">Mucho</label>
 		</form>
-	</section>
-	<section accesskey="7">
-		<h2>¿Te sirvio esta página para saber algo más sobre Tim Berners-Lee?</h2>
 		<form name="sirvio">
-			<input type="radio" id="siT" name="fsirvio" value="Si">
+		<h2>¿Te sirvio esta página para saber algo más sobre Tim Berners-Lee?</h2>
+		<input type="radio" id="siT" name="fsirvio" value="Si">
 		  <label for="siT">Si</label>
 		  <input type="radio" id="noT" name="fsirvio" value="No">
 		  <label for="noT">No</label><br>
 		</form>
-	</section>
-	<section accesskey="8">
-		<h2>¿Te sirvio esta página para saber algo más sobre  World Wide Web?</h2>
+		
 		<form name="sirvioW">
+			<h2>¿Te sirvio esta página para saber algo más sobre  World Wide Web?</h2>
 			<input type="radio" id="siW" name="fsirvio" value="Si">
 		  <label for="siW">Si</label>
 		  <input type="radio" id="noW" name="fsirvio" value="No">
 		  <label for="noW">No</label><br>
 		</form>
 	</section>
-	<section accesskey="9">
-		<h2>Introduce tus datos</h2>
-			<form name="datos">	
+
+	<section  tabindex="6">
+		<form name="datos">
+				<h2>Introduce tus datos</h2>
 				<label for="fusuario">Usuario: </label>
 				<input type="text" id="fusuario"  name="fusuario">
 				<br>
 				<label for="femail">E-mail: </label>
 				<input type="email" id="femail"  name="femail" >
 			</form>
-	</section>
-	<section accesskey="0">
-		<h2>Otros datos</h2>
 		<form name="final">
+			<h2>Otros datos</h2>
 			<label for="fopinion">Otros datos que desees comentar: </label><br>
 			<textarea id="fopinion"  name="fopinion" ></textarea>
 			<br>
@@ -107,7 +102,9 @@
 			<br>
 			<input type="button" onclick="alert('Se ha enviado el formulario')" value="Mandar formulario">
 		</form>
-	</section>	
+	</section>
+	
+	
 </main>
 
 <aside>

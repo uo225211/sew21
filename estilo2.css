@@ -8,28 +8,19 @@ body{
 body > * {
 	flex: 1 100%;
   }
-header{
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
+
 nav{
-	grid-column-start: 1;
-	grid-column-end: 3;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow:  row wrap;
 	justify-content: space-between;
 }
-footer{
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
+
 @media all and (min-width: 600px) {
 	aside { flex: 1 5%; }
 }
 @media all and (min-width: 800px) {
 	
 	main { flex: 2 0em; }
-
 	main    { order: 1; }
 	aside { order: 2; }
 	footer  { order: 3; }
@@ -45,9 +36,8 @@ footer{
 /*Selectores de especificidad 014*/
   nav ul>li:hover>ul {
 	display:flex;
-	flex-direction:column;
+	flex-direction:column ;
   }
-
-
+  
   
 
