@@ -5,21 +5,9 @@ th{
 	color:white;
 }
 
-footer{
-	text-align:center;
-	background-color:#E3F7FF;
-	color:white;
-	padding:10px;
-	border: solid;
-	border-color:#6497AC;
-}
 
-/*Selectores de especidicidad 002*/
-
-th[rowspan]{
-	background:#ffffff;
-	color:#2b3ff8;
-	;
+table{
+	margin: auto;
 }
 
 td,th{
@@ -28,10 +16,12 @@ td,th{
 	border-color:#2336e0;
 }
 
-/*Selectores especificidad 003*/
-h2,h3,h4{
-	color:#3f5da8;
-	background-color:#FFFFFF;
+/*Selectores de especidicidad 011*/
+
+th[rowspan]{
+	background:#ffffff;
+	color:#2b3ff8;
+	;
 }
 
 

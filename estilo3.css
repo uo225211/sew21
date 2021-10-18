@@ -1,0 +1,28 @@
+
+/*Selectores de especificidad 001*/
+main{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 1em;
+	justify-items: stretch;
+	grid-template-rows: auto;
+}
+
+h1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+textarea{
+	width: 40em;
+	height: 15em;
+}
+
+/*Selectores de especificidad 011*/
+section[accesskey="9"],section[accesskey="10"] {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+
+  
+

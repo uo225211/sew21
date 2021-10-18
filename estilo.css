@@ -12,6 +12,7 @@ body{
 	background-color:#FFFFFF;
 	margin: 25px 50px;
 	text-align: center;
+
 }
 header{
 	padding:30px;
@@ -23,16 +24,23 @@ p {
 	text-align: justify;
 }
 nav{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
 	list-style: none;
 }
 h1{
 	color:#1b294d;	
 
 }
-
+footer{
+	text-align:center;
+	padding:10px;
+}
+h2,h3,h4{
+	color:#3f5da8;
+}
+video {
+	width: 75%;
+	height: 75%;
+  }
 /*Selectores de especificidad 002*/
 header p{
 	text-align: center;
@@ -60,8 +68,6 @@ nav ul{
   nav ul>li{
 	float: left;
 	text-align:center;
-	display: flex;
-	flex-direction:column;
 	width:25%;
   }
 /*Selectores de especificidad 004*/
@@ -83,10 +89,12 @@ nav ul li>a{
 	background-color: #E3F7FF;
 	width:100%;
   }
-  nav ul>li:hover>ul {
-	display:flex;
-	flex-direction:column;
+  nav ul li>a:focus{
+	color: #1b294d;
+	background-color: #E3F7FF;
+	width:100%;
   }
+
   /*Selectores de especificidad 015*/
   nav ul>li:hover>ul>li {	
 	overflow: hidden;

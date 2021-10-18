@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+<title>Tim Berners-Lee</title>
+<meta charset="UTF-8"/>
+<meta name="keywords" content="html5, estandares,caracteres, diseño web"/>
+<meta name="description" content="Tim Berners-Lee"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="estilo.css"  />
+<link rel="stylesheet" type="text/css" href="estilo2.css"  />
+<link rel="stylesheet" type="text/css" href="estilo3.css"  />
+</head>
+
+<body>
+<header>
+<h1>Tim Berners-Lee</h1>
+<p>Padre de la World Wide We</p>
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html" accesskey="I" tabindex="1">Inicio</a>
+		<li><a href="premios.html" accesskey="P" tabindex="2">Premios</a>
+			<ul>
+				<li><a href="premios.html#1" accesskey="R">Reconocimientos, y condecoraciones</a></li>
+				<li><a href="premios.html#2" accesskey="O">Otras distinciones</a></li>
+			</ul>  
+		</li>
+		<li><a href="www.html" accesskey="W" tabindex="3">World Wide Web</a>
+			<ul>
+				<li><a href="www.html#1" accesskey="E">Estándares web</a></li>
+				<li><a href="www.html#2" accesskey="S">Estándares</a></li>
+				<li><a href="www.html#3" accesskey="A">30 Aniversario</a></li>
+			</ul>  
+		</li>
+		<li><a href="formulario.html"accesskey="F" tabindex="4">Formulario</a></li>
+	</ul>
+</nav>
+	
+
+<main>
+<h1>Danos tu opinión</h1>
+	<section accesskey="5">
+		<h2>¿Conocias previamente a Tim Berners-Lee?</h2>
+		<form name="conocias">
+				
+		  	<input type="radio" id="no" name="fcon" value="No">
+		  	<label for="no">No</label>
+			<input type="radio" id="unpoco" name="fcon" value="unpoco">
+		  	<label for="unpoco">Un poco</label>
+			<input type="radio" id="bastante" name="fcon" value="bastante">
+		  	<label for="bastante">Bastante</label>
+			<input type="radio" id="mucho" name="fcon" value="mucho">
+		  	<label for="mucho">Mucho</label>
+		</form>
+	</section>
+
+	<section accesskey="6">
+		<h2>¿Conocias previamente la World Wide Web?</h2>
+		<form name="conociasW">
+		  	<input type="radio" id="no" name="fcon" value="No">
+		  	<label for="no">No</label>
+			<input type="radio" id="unpoco" name="fcon" value="unpoco">
+		  	<label for="unpoco">Un poco</label>
+			<input type="radio" id="bastante" name="fcon" value="bastante">
+		  	<label for="bastante">Bastante</label>
+			<input type="radio" id="mucho" name="fcon" value="mucho">
+		  	<label for="mucho">Mucho</label>
+		</form>
+	</section>
+	<section accesskey="7">
+		<h2>¿Te sirvio esta página para saber algo más sobre Tim Berners-Lee?</h2>
+		<form name="sirvio">
+			<input type="radio" id="siT" name="fsirvio" value="Si">
+		  <label for="siT">Si</label>
+		  <input type="radio" id="noT" name="fsirvio" value="No">
+		  <label for="noT">No</label><br>
+		</form>
+	</section>
+	<section accesskey="8">
+		<h2>¿Te sirvio esta página para saber algo más sobre  World Wide Web?</h2>
+		<form name="sirvioW">
+			<input type="radio" id="siW" name="fsirvio" value="Si">
+		  <label for="siW">Si</label>
+		  <input type="radio" id="noW" name="fsirvio" value="No">
+		  <label for="noW">No</label><br>
+		</form>
+	</section>
+	<section accesskey="9">
+		<h2>Introduce tus datos</h2>
+			<form name="datos">	
+				<label for="fusuario">Usuario: </label>
+				<input type="text" id="fusuario"  name="fusuario">
+				<br>
+				<label for="femail">E-mail: </label>
+				<input type="email" id="femail"  name="femail" >
+			</form>
+	</section>
+	<section accesskey="10">
+		<form name="final">
+			<label for="fopinion">Otros datos que desees comentar: </label><br>
+			<textarea id="fopinion"  name="fopinion" ></textarea>
+			<br>
+			<input type="checkbox" id="facuerdo" name="facuerdo">
+			<label for="facuerdo"> Estoy de acuerdo con las condiciones de la página</label>
+			<br>
+			<input type="button" onclick="alert('Se ha enviado el formulario')" value="Mandar formulario">
+		</form>
+	</section>	
+</article>
+</main>
+
+<aside>
+	<h2>Escucha un poco de musica mientras lees</h2>
+	<audio src="multimedia/audio.mp3" controls autoplay> </audio>
+</aside>
+<footer>
+<a href="https://validator.w3.org/check?uri=referer">
+  <img src=" multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>
+<a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+	<img src="multimedia/CSS3.png" 
+		alt="CSS Válido" height="63" width="64" /></a>  
+</footer>
+
+
+
+</body>
+
+</html>
