@@ -12,16 +12,7 @@ textarea{
 	height: 180%;
 }
 
-@media all and (max-width: 800px) {
-	nav {
-	  flex-flow: column wrap;
-	}
-  }
-/*Selectores de especificidad 011*/
-section[accesskey="9"],section[accesskey="0"] {
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
+
 
 input[type="button"]{
 	width: 9em;
@@ -29,12 +20,5 @@ input[type="button"]{
 	background: #000084;
     color: #E3F7FF;
 }
-/*Selectores de especificidad 003*/
-@media all and (max-width: 800px) {
-
-	nav ul>li{
-		width:100%;
-	  }
-  }
 
   

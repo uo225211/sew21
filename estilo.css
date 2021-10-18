@@ -26,6 +26,11 @@ p {
 nav{
 	list-style: none;
 }
+@media all and (max-width: 800px) {
+	nav {
+	  flex-flow: column wrap;
+	}
+  }
 h1{
 	color:#1b294d;	
 
@@ -70,6 +75,8 @@ nav ul{
 	text-align:center;
 	width:25%;
   }
+
+
 /*Selectores de especificidad 004*/
 nav ul li>a{
 	background-color: #1b294d;
