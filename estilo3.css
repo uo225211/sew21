@@ -12,11 +12,8 @@ fieldset{
 	padding: 2em;
 }
 
-
-/*Selectores de especificidad 002*/
-fieldset legend{
+legend{
 	color:#3f5da8;
-	background: white;
 }
 /*Selectores de especificidad 011*/
 
