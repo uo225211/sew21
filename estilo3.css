@@ -20,7 +20,7 @@ fieldset legend{
 }
 /*Selectores de especificidad 011*/
 
-input[type="button"]{
+input[type="submit"]{
 	width: 9em;
 	height: 4em;
 	background: #000084;
