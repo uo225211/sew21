@@ -1,0 +1,32 @@
+/*Selectores de especificidad 001*/
+
+th{
+	background:#2b3ff8;
+	color:white;
+}
+
+
+table{
+	margin: auto;
+}
+
+td,th{
+	border:1px solid;
+	padding:12px;
+	border-color:#2336e0;
+}
+
+/*Selectores de especidicidad 011*/
+
+td[rowspan]{
+	background:#ffffff;
+	color:#2b3ff8;
+	;
+}
+
+
+
+
+	
+
+	

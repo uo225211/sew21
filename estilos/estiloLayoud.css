@@ -1,0 +1,49 @@
+
+/*Selectores de especificidad 001*/
+body{
+	display: flex;
+  	flex-flow: row wrap;
+}
+
+body > * {
+	flex: 1 100%;
+  }
+
+nav{
+	display: flex;
+	flex-flow:  row wrap;
+	justify-content: space-between;
+}
+
+@media all and (min-width: 600px) {
+	aside { flex: 1 5%; }
+}
+@media all and (min-width: 800px) {
+	
+	main { flex: 2 0em; }
+	main    { order: 1; }
+	aside { order: 2; }
+	footer  { order: 3; }
+}
+
+/*Selectores de especificidad 003*/
+  nav ul>li{
+	display: flex;
+	flex-direction:column;
+  }
+
+  @media all and (max-width: 800px) {
+
+	nav ul>li{
+		width:100%;
+	  }
+  }
+
+/*Selectores de especificidad 014*/
+  nav ul>li:hover>ul {
+	display:flex;
+	flex-direction:column ;
+  }
+  
+  
+
