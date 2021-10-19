@@ -18,7 +18,7 @@ td,th{
 
 /*Selectores de especidicidad 011*/
 
-th[rowspan]{
+td[rowspan]{
 	background:#ffffff;
 	color:#2b3ff8;
 	;
