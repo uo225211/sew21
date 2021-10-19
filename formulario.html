@@ -39,7 +39,7 @@
 	
 
 <main>
-<h1>Danos tu opinión</h1>
+<h1>Por favor rellene el siguente cuestionario</h1>
 	<form name="conocias">
 		<fieldset>
 			<legend>¿Conocias previamente a Tim Berners-Lee?</legend>
@@ -86,29 +86,32 @@
 			<input type="radio" id="siW" name="fcon" value="si">
 			<label for="siW">Si</label>
 		</fieldset>
-		
+		<input type="button" onclick="alert('Se ha enviado el cuestopnario')" value="Mandar Cuestionario">
 		</form>
-
-	<section  tabindex="6">
-		<form name="datos">
-				<h2>Introduce tus datos</h2>
+		<h1>Por favor danos su opinión sobre la página</h1>
+		<form name="datos">		
+		<fieldset>
+			<legend>Introduce tus datos</legend>
 				<label for="fusuario">Usuario: </label>
 				<input type="text" id="fusuario"  name="fusuario">
 				<br>
 				<label for="femail">E-mail: </label>
 				<input type="email" id="femail"  name="femail" >
-			</form>
-		<form name="final">
-			<h2>Otros datos</h2>
-			<label for="fopinion">Otros datos que desees comentar: </label><br>
+			</fieldset>
+			<fieldset>
+				<label for="fopinion">Otros datos que desees comentar: </label><br>
 			<textarea id="fopinion"  name="fopinion" ></textarea>
 			<br>
-			<input type="checkbox" id="facuerdo" name="facuerdo">
-			<label for="facuerdo"> Estoy de acuerdo con las condiciones de la página</label>
+			
+			
+		</fieldset>
+			<label>
+		<input type="checkbox" id="facuerdo" name="facuerdo"> Estoy de acuerdo con las condiciones de la página</label>
 			<br>
-			<input type="button" onclick="alert('Se ha enviado el formulario')" value="Mandar formulario">
+		<input type="button" onclick="alert('Se ha enviado el formulario')" value="Mandar formulario">
 		</form>
-	</section>
+
+	
 	
 	
 </main>

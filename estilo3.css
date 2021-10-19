@@ -1,18 +1,24 @@
 
 /*Selectores de especificidad 001*/
-section[tabindex="5"]{
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(45%, 20em));
-  	grid-gap: 1rem;
-}
-
 
 textarea{
 	width: 70%;
-	height: 180%;
+	height: 80%;
+}
+fieldset{
+	border:ridge;
+	text-align: left;
+	border-color: #3f5da8;
+	padding: 2em;
 }
 
 
+/*Selectores de especificidad 002*/
+fieldset legend{
+	color:#3f5da8;
+	background: white;
+}
+/*Selectores de especificidad 011*/
 
 input[type="button"]{
 	width: 9em;
@@ -20,5 +26,15 @@ input[type="button"]{
 	background: #000084;
     color: #E3F7FF;
 }
-
-  
+form[name="conocias"]{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(45%, 20em));
+  	grid-gap: 1rem;
+	text-align: center;
+}
+form[name="datos"]{
+	display: grid;
+	grid-template-rows:30% 70%;
+  	grid-gap: 1rem;
+	text-align: left;
+}
