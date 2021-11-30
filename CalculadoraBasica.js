@@ -70,7 +70,7 @@ class calculadoraBásica {
             this.opera=valor;
         }
         if (this.numG == 0){
-            this.numG = document.querySelector("[type='text']").value;
+            this.numG = document.querySelector("input [type='text']").value;
         }
         this.num1= 0;
         this.refrescar();
@@ -107,7 +107,7 @@ class calculadoraBásica {
     }
 
     mrc(){
-        document.querySelector("input[type='text']").value = this.memoria;
+        document.querySelector("input [type='text']").value = this.memoria;
     }
     //acceso por l
     kmrc(e){
@@ -119,7 +119,7 @@ class calculadoraBásica {
 
     mcMas(){
         if (this.num1 == 0){
-            this.num1 = document.querySelector("input[type='text']").value;
+            this.num1 = document.querySelector("input [type='text']").value;
         }
         this.memoria+=this.num1;
         this.num1= this.memoria;
@@ -133,7 +133,7 @@ class calculadoraBásica {
     }
     mcMenos(){
         if (this.num1 == 0){
-            this.num1 = document.querySelector("input[type='text']").value;
+            this.num1 = document.querySelector("input [type='text']").value;
         }
         this.memoria+=this.num1;
         this.num1= this.memoria;

@@ -16,7 +16,7 @@ body {
   padding: 2em;
 }
 
-main {
+section {
   display: grid;
   align-items: stretch;
   color: rgb(0, 0, 0);
@@ -48,7 +48,7 @@ form {
   grid-column: 2;
 }
 
-label {
+h1 {
   text-align: center;
 
   grid-column-start: 1;
