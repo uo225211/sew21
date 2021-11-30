@@ -16,7 +16,7 @@ body {
   padding: 2em;
 }
 
-section {
+main {
   display: grid;
   align-items: stretch;
   color: rgb(0, 0, 0);
