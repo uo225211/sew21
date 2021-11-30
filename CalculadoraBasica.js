@@ -70,7 +70,7 @@ class calculadoraBásica {
             this.opera=valor;
         }
         if (this.numG == 0){
-            this.numG = document.querySelector("input[type='text']").value;
+            this.numG = document.querySelector("[type='text']").value;
         }
         this.num1= 0;
         this.refrescar();
@@ -146,7 +146,7 @@ class calculadoraBásica {
     }        
 }
     refrescar(){
-        document.querySelector("input[type='text']").value = this.num1;
+        document.querySelector("input [type='text']").value = this.num1;
     }
 }
 var cal = new calculadoraBásica();

@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
     <!DOCTYPE HTML>
     <html lang="es">
     
@@ -16,9 +14,9 @@
     <main>
         <h1>Calculadora Básica</h1>
   
-    <secction >
+        
         <form>
-                <input type="text" id="valor_numero" maxlength="20" value="0" readonly="true" >
+                <input type="text" id="valor_numero" maxlength="20" value="0" disabled >
          
                 <input type="Button" id="memoriaMostrar" value="mrc" onclick="cal.mrc()" >
             
@@ -26,7 +24,7 @@
            
                 <input type="Button" id="memoriaSumar" value="mr+" onclick="cal.mrMas()">
 
-                <input type="Button" id="multiplicar" value="/" onclick="cal.operar('/')">
+                <input type="Button" id="dividir" value="/" onclick="cal.operar('/')">
       
                 <input type="Button" id="7" value="7"  onclick="cal.darNumero('7')">
            
@@ -60,7 +58,7 @@
            
             <input type="Button" id="esIgual" value="=" onclick="cal.esIgual()">
         </form>
-    </section>
+   
 </main>
 </body>
 </html>

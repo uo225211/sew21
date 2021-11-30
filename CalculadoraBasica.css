@@ -1,6 +1,6 @@
 /*Especifidad: 000 */
 html,body {
-  margin: 10;
+  margin: 0;
   height: 100%;
 }
 /*Especifidad: 001 */
@@ -10,18 +10,16 @@ body {
   grid-template-columns: auto 85vw auto;
   grid-template-rows: auto;
 
-
-  font-family: Tahoma, sans-serif;
-
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-color: #fff;
-  font: 400 "Palatino", "URW Palladio L", serif; 
+  font: 400 15px "Palatino", "URW Palladio L", serif; 
   padding: 2em;
 }
 
 main {
   display: grid;
   align-items: stretch;
+  color: rgb(0, 0, 0);
   background-color: #b268f8;
   padding: 1.4em;
 
@@ -75,6 +73,7 @@ input[type="text"] {
   justify-self: stretch;
 
   background-color: #eebcdb;
+  color: rgb(0, 0, 0);
   grid-column-start: 1;
   grid-column-end: span 4;
 
@@ -103,10 +102,12 @@ input[type="button"] {
 
 input[value$="C"] {
   background-color: #292929;
+  color: #fff;
 }
 
 /*Especifidad: 021 */
 input[type="button"]:last-of-type {
   background-color: #bf3b3b;
+  color: rgb(0, 0, 0);
 }
 
