@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE HTML>
+    <html lang="es">
+    
+    <head>
+    <title>Calculadora Básica</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Calculadora Básica"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="calculadoraBasica.css"  />
+    <script src="CalculadoraBasica.js"></script>
+    </head>
+    
+<body>
+    <main>
+        <h1>Calculadora Básica</h1>
+  
+    <secction >
+        <form>
+                <input type="text" id="valor_numero" maxlength="20" value="0" readonly="true" >
+         
+                <input type="Button" id="memoriaMostrar" value="mrc" onclick="cal.mrc()" >
+            
+                <input type="Button" id="memoriaRestar" value="mr-" onclick="cal.mrMenos()">
+           
+                <input type="Button" id="memoriaSumar" value="mr+" onclick="cal.mrMas()">
+
+                <input type="Button" id="multiplicar" value="/" onclick="cal.operar('/')">
+      
+                <input type="Button" id="7" value="7"  onclick="cal.darNumero('7')">
+           
+                <input type="Button" id="8" value="8"  onclick="cal.darNumero('8')">
+            
+                <input type="Button" id="9" value="9"  onclick="cal.darNumero('9')">
+            
+                <input type="Button" id="multiplicar" value="*" onclick="cal.operar('*')">
+            
+                <input type="Button" id="4" value="4"  onclick="cal.darNumero('4')">
+           
+                <input type="Button" id="5" value="5" onclick="cal.darNumero('5')">
+            
+                <input type="Button" id="6" value="6" onclick="cal.darNumero('6')">
+           
+    	        <input type="Button" id="restar" value="-" onclick="cal.operar('-')">
+    	    
+                <input type="Button" id="1" value="1" onclick="cal.darNumero('1')">
+            
+                <input type="Button" id="2" value="2" onclick="cal.darNumero('2')">
+            
+                <input type="Button" id="3" value="3" onclick="cal.darNumero('3')">
+           
+                <input type="Button" id="sumar" value="+" onclick="cal.operar('+')">
+            
+                <input type="Button" id="0" value="0" onclick="cal.darNumero('0')">
+            
+                <input type="Button" id="," value="," onclick="cal.darComa()">
+            
+    		<input type="Button" id="C" value="C" onclick="cal.darC()">
+           
+            <input type="Button" id="esIgual" value="=" onclick="cal.esIgual()">
+        </form>
+    </section>
+</main>
+</body>
+</html>
