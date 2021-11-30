@@ -48,7 +48,7 @@ form {
   grid-column: 2;
 }
 
-h1 {
+label {
   text-align: center;
 
   grid-column-start: 1;
