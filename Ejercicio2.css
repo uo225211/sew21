@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font: 400 15px "Palatino", "URW Palladio L", serif; 
+    line-height: 2.5;
+    background-color: #EEE4F1;
+    padding: 10px;
+    color:#f7a50e;
+    
+  }
+   
+  
+    footer {
+      background-color: #EEE4F1;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+      color:#f7a50e;
+    }
+    
+  h1 {
+      color:#2320e4; 
+      font-size: 50px;
+      text-align: center; 
+      background-color: #EEE4F1;    
+  }
+   h2 {
+      color:#e4203a; 
+    font-size: 40px;
+    text-align: center; 
+    background-color: #EEE4F1;
+  }
+  p {
+    color:#000000;
+    font-size: 18px;
+    text-align: center; 
+    background-color: #EEE4F1;
+  }
