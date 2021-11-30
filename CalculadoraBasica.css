@@ -4,7 +4,7 @@ html,body {
   height: 100%;
 }
 /*Especifidad: 001 */
-main {
+body {
   display: grid;
   align-items: stretch;
   grid-template-columns: auto 85vw auto;
@@ -16,21 +16,24 @@ main {
   justify-self: center;
 }
 
-section {
+main {
   display: grid;
   align-items: stretch;
-  color: rgb(0, 0, 0);
-  background-color: #b268f8;
-  padding: 1.4em;
+  
+ 
   justify-self: center;
-  min-width: 50vmin;
   max-width: clamp(50rem, 90vmax, 55rem);
-  max-height: 85%;
   grid-column-start: 2;
   grid-row-start: auto;
-  border-radius: 1.45em;
+  
 }
-form {
+section {
+  color: rgb(0, 0, 0);
+  background-color: #b268f8;
+  border-radius: 1.45em;
+  min-width: 50vmin;
+  padding: 1.4em;
+  max-height: 85%;
   min-height: 100%;
   max-width: 100%;
   display: grid;
